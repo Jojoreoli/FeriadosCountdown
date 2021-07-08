@@ -14,7 +14,7 @@ let ano = new Date().getFullYear();
 
 // Acessando a API usando template literal para passar o ano atual
 // A API é de acesso limitado então decidi usar minha cidade natal
-fetch(`https://api.calendario.com.br/?json=true&ano=${ano}&estado=SP&cidade=MOGI_GUACU&token=am9hby5yZW9saUBnbWFpbC5jb20maGFzaD0yMzM2NTA2Mw`)
+fetch(`https://api.calendario.com.br/?json=true&ano=${ano}&estado=MG&cidade=BELO_HORIZONTE&token=am9hby5yZW9saUBnbWFpbC5jb20maGFzaD0yMzM2NTA2Mw`)
   .then((response) => {
     // Parseando a resposta
     return response.json();
